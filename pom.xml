@@ -21,6 +21,12 @@
                 <version>3.2.0</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
+                    <archive>
+                        <manifest>
+                            <mainClass>org.sample.Main
+                            </mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
             <!-- Other plugins and configurations -->
