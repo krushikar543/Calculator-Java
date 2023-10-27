@@ -3,3 +3,13 @@
 
 2023-10-27 03:26:17.253[main] INFO  com.sample.Main - Addition operation finished
 2023-10-27 03:26:22.958[main] INFO  com.sample.Main - End of Execution
+2023-10-27 05:10:09.317[main] INFO  com.sample.Main - Start of Execution
+2023-10-27 05:10:21.136[main] INFO  com.sample.Main - End of Execution
+2023-10-27 05:11:21.011[main] INFO  com.sample.Main - Start of Execution
+2023-10-27 05:11:35.734[main] INFO  com.sample.Main - Inside SUBSTRACTION operation
+
+2023-10-27 05:11:35.735[main] INFO  com.sample.Main - substraction operation finished
+2023-10-27 05:11:45.234[main] INFO  com.sample.Main - Inside MULTIPLICATION operation
+
+2023-10-27 05:11:45.234[main] INFO  com.sample.Main - multiplication operation finished
+2023-10-27 05:11:48.689[main] INFO  com.sample.Main - End of Execution

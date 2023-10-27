@@ -1,46 +1,46 @@
 package com.sample;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.LogManager;
+// import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 public class Main {
-    private static final Logger logger = LogManager.getLogger(Main.class);
+    // private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
         // System.out.println("My first Java based Calculator");
-        logger.info("Start of Execution");
+        // logger.info("Start of Execution");
         int opt = 0;
         while(1 != 0){
             System.out.println("-------The--Calculator---------\n" + "Choose Your Option\n" + "1.Addition\n" + "2.Substraction\n" + "3.Multiplication\n" + "4.Division\n" + "5.Exit\n");
             Scanner input = new Scanner(System.in);
             opt = input.nextInt();
             if(opt == 5){
-                logger.info("End of Execution");
+                // logger.info("End of Execution");
                 System.exit(0);
             }
-            System.out.println("Enter operand 1: \n");
+            System.out.println("Enter operand 1: ");
             int opt1 = input.nextInt();
-            System.out.println("Enter Operand 2: \n");
+            System.out.println("Enter Operand 2: ");
             int opt2 = input.nextInt();  
 
             switch(opt){
                 case 1:
-                    logger.info("Inside ADDITION operation\n");
+                    // logger.info("Inside ADDITION operation\n");
                     System.out.println(add(opt1, opt2));
-                    logger.info("Addition operation finished");
+                    // logger.info("Addition operation finished");
                     break;
                 case 2:
-                    logger.info("Inside SUBSTRACTION operation\n");
+                    // logger.info("Inside SUBSTRACTION operation\n");
                     System.out.println(sub(opt1, opt2));
-                    logger.info("substraction operation finished");
+                    // logger.info("substraction operation finished");
                     break;
                 case 3:
-                    logger.info("Inside MULTIPLICATION operation\n");
+                    // logger.info("Inside MULTIPLICATION operation\n");
                     System.out.println(mul(opt1, opt2));
-                    logger.info("multiplication operation finished");
+                    // logger.info("multiplication operation finished");
                     break;
                 case 4:     
-                    logger.info("Inside DIVISION operation\n");
+                    // logger.info("Inside DIVISION operation\n");
                     System.out.println(div(opt1, opt2));
-                    logger.info("Add operation finished");
+                    // logger.info("Add operation finished");
                     break;
             }
         }
