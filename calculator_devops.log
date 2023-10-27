@@ -1,0 +1,5 @@
+2023-10-27 03:26:02.929[main] INFO  com.sample.Main - Start of Execution
+2023-10-27 03:26:17.251[main] INFO  com.sample.Main - Inside ADDITION operation
+
+2023-10-27 03:26:17.253[main] INFO  com.sample.Main - Addition operation finished
+2023-10-27 03:26:22.958[main] INFO  com.sample.Main - End of Execution
