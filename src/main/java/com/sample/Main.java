@@ -8,8 +8,9 @@ public class Main {
         // System.out.println("My first Java based Calculator");
         // logger.info("Start of Execution");
         int opt = 0;
+        System.out.println("-------The-Calculator---------\n");
         while(1 != 0){
-            System.out.println("-------The--Calculator---------\n" + "Choose Your Option\n" + "1.Addition\n" + "2.Substraction\n" + "3.Multiplication\n" + "4.Division\n" + "5.Exit\n");
+            System.out.println( "Choose Your Option\n" + "1.Addition\n" + "2.Substraction\n" + "3.Multiplication\n" + "4.Division\n" + "5.Exit\n");
             Scanner input = new Scanner(System.in);
             opt = input.nextInt();
             if(opt == 5){
@@ -20,7 +21,7 @@ public class Main {
             int opt1 = input.nextInt();
             System.out.println("Enter Operand 2: ");
             int opt2 = input.nextInt();  
-
+            System.out.println("Output : ");
             switch(opt){
                 case 1:
                     // logger.info("Inside ADDITION operation\n");
@@ -39,9 +40,16 @@ public class Main {
                     break;
                 case 4:     
                     // logger.info("Inside DIVISION operation\n");
-                    System.out.println(div(opt1, opt2));
+                    if(opt2 == 0){
+                        System.out.println("Invalid Input : Divisor cannot be Zero");
+                    }
+                    else{
+                        System.out.println(div(opt1, opt2));
+                    }
                     // logger.info("Add operation finished");
                     break;
+                default:
+                    System.out.println("Enter an valid option");
             }
         }
     }
