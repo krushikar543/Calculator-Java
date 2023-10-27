@@ -23,8 +23,7 @@
                     <encoding>UTF-8</encoding>
                     <archive>
                         <manifest>
-                            <mainClass>org.sample.Main
-                            </mainClass>
+                            <mainClass>com.sample.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -33,9 +32,7 @@
         </plugins>
     </build>
     <dependencies>
-        <!--
-https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j
--core -->
+        <!-- Log4j dependencies -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
