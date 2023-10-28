@@ -24,29 +24,21 @@ public class Main {
             System.out.println("Output : ");
             switch(opt){
                 case 1:
-                    // logger.info("Inside ADDITION operation\n");
                     System.out.println(add(opt1, opt2));
-                    // logger.info("Addition operation finished");
                     break;
                 case 2:
-                    // logger.info("Inside SUBSTRACTION operation\n");
                     System.out.println(sub(opt1, opt2));
-                    // logger.info("substraction operation finished");
                     break;
                 case 3:
-                    // logger.info("Inside MULTIPLICATION operation\n");
                     System.out.println(mul(opt1, opt2));
-                    // logger.info("multiplication operation finished");
                     break;
                 case 4:     
-                    // logger.info("Inside DIVISION operation\n");
                     if(opt2 == 0){
                         System.out.println("Invalid Input : Divisor cannot be Zero");
                     }
                     else{
                         System.out.println(div(opt1, opt2));
                     }
-                    // logger.info("Add operation finished");
                     break;
                 default:
                     System.out.println("Enter an valid option");
