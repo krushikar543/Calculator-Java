@@ -1,12 +1,7 @@
 package com.sample;
-// import org.apache.logging.log4j.LogManager;
-// import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 public class Main {
-    // private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
-        // System.out.println("My first Java based Calculator");
-        // logger.info("Start of Execution");
         int opt = 0;
         System.out.println("-------The-Calculator---------\n");
         while(1 != 0){
@@ -14,7 +9,6 @@ public class Main {
             Scanner input = new Scanner(System.in);
             opt = input.nextInt();
             if(opt == 5){
-                // logger.info("End of Execution");
                 System.exit(0);
             }
             System.out.println("Enter operand 1: ");

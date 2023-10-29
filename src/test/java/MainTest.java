@@ -3,7 +3,7 @@ import org.junit.Test;
 import org.junit.Before;
 import org.junit.Assert;
 
-public class Calculator_test {
+public class MainTest {
     private Main calculator;
     @Before
     public void setUp(){
@@ -41,13 +41,13 @@ public class Calculator_test {
     public void Test_mul_positive(){
         int a = 5;
         int b = 9;
-        int expRes = 42;
+        int expRes = 45;
         Assert.assertEquals(expRes, calculator.mul(a, b));
     }
     @Test
     public void Test_mul_negative(){
         int a = 45;
-        int b = -5;
+        int b = -4  ;
         int expRes = -180;
         Assert.assertEquals(expRes, calculator.mul(a, b));
     }
