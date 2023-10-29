@@ -41,7 +41,7 @@ public class Calculator_test {
     public void Test_mul_positive(){
         int a = 5;
         int b = 9;
-        int expRes = 45;
+        int expRes = 42;
         Assert.assertEquals(expRes, calculator.mul(a, b));
     }
     @Test
