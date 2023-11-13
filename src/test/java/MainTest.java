@@ -65,4 +65,11 @@ public class MainTest {
         int expRes = -3;
         Assert.assertEquals(expRes, calculator.div(a, b));
     }
+    @Test
+    public void Test_div_negative_new(){
+        int a = -66;
+        int b = -11;
+        int expRes = 6;
+        Assert.assertEquals(expRes, calculator.div(a, b));
+    }
 }
