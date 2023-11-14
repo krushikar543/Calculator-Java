@@ -44,6 +44,12 @@ public class MainTest {
         int expRes = 45;
         Assert.assertEquals(expRes, calculator.mul(a, b));
     }
+    public void Test_mul_positive_new(){
+        int a = 567;
+        int b = 9;
+        int expRes = 457;
+        Assert.assertNotEquals(expRes, calculator.mul(a, b));
+    }
     @Test
     public void Test_mul_negative(){
         int a = 45;
