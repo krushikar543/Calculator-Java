@@ -78,13 +78,6 @@ public class MainTest {
         Assert.assertEquals(expRes, calculator.div(a, b));
     }
     @Test
-    public void Test_div_negative_new(){
-        int a = -66;
-        int b = -11;
-        int expRes = 6;
-        Assert.assertEquals(expRes, calculator.div(a, b));
-    }
-    @Test
     public void Test_div_negative_new_test_case(){
         int a = -66;
         int b = 1;
